@@ -1,9 +1,8 @@
 import React from 'react';
-
+import {Header} from '../../components'
 const Personal = () => {
   return (
-    <div>
-      Personal
+    <div className='overflow-auto px-[60px]'> 
     </div>
   );
 }
