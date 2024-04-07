@@ -3,6 +3,23 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      backgroundColor:{
+        'layout-bg':'#ced9d9',
+        'layout-header-bg':'rgba(206, 217, 217, 0.8)',
+        'player-bg':'#c0d8d8',
+        'sidebar-bg':'hsla(0, 0%, 100%, 0.3)',
+        'sidebar-popup-bg':'#cce0e0',
+        'alpha-bg':'hsla(0, 0%, 100%, 0.3)',
+
+      },
+      color:{
+        'layout-bg':'#ced9d9',
+        'layout-header-bg':'rgba(206, 217, 217, 0.8)',
+        'player-bg':'#c0d8d8',
+        'sidebar-bg':'hsla(0, 0%, 100%, 0.3)',
+        'sidebar-popup-bg':'#cce0e0',
+        'alpha-bg':'hsla(0, 0%, 100%, 0.3)',
+      },
       keyframes: {
        "slide-right" :{
          " 0%" :{

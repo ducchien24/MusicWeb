@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { Home , Login , Public ,Personal } from './containers/public/';
+import { Home , Login , Public ,Personal ,Album } from './containers/public/';
 import {Routes, Route} from 'react-router-dom';
 import Path from './ultis/path'
 import * as actions from './redux/actions'
@@ -24,6 +24,8 @@ useEffect(() => {
         <Route path={Path.HOME} element={<Home />} />
         <Route path={Path.LOGIN} element={<Login />} />    
         <Route path={Path.MY_MUSIC } element={<Personal />} /> 
+        <Route path={Path.PLAYLIST__TITLE__PID } element={<Album />} /> 
+        <Route path={Path.ALBUM__TITLE__PID } element={<Album />} /> 
         <Route path={Path.STAR} element={<Home />} />
         </Route>
       </Routes>

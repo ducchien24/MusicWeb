@@ -5,9 +5,6 @@ const Home = () => {
  
   return (
     <div className="overflow-auto px-[60px]">
-      <div>
-        <Header />
-    </div>
        <Slider />
   
   </div>

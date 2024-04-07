@@ -1,5 +1,6 @@
 
-import {actionTypes} from '../actions/actionTypes'
+// import {actionTypes} from '../actions/actionTypes'
+import {actionTypes} from '../../actions/actionTypes'
 const initState ={
     banner:[],
 }
